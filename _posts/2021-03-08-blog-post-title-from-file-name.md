@@ -1,22 +1,22 @@
-## test blog
+## Test Blog
 
-首先，在需要克隆的项目文件的GitHub页面找到SSH版本的clone链接，例如`git@github.com:yanpiaowanli/yanpiaowanli.github.io.git`
+First, find the SSH version clone link of the project files you need to clone on the GitHub page, for example `git@github.com:yanpiaowanli/yanpiaowanli.github.io.git`
 
-然后，在目标文件夹（例如`E:\projects\blog`）中打开git bash（cmd也可以），输入如下命令
+Then, open Git Bash (or cmd) in the target folder (for example `E:\projects\blog`) and enter the following command
 
-```cmd or git bash
+```cmd
 git clone git@github.com:example
 ```
 
-比如在上例中，我们使用如下的代码
+For example, in the above example, we use the following code
 
-```cmd or git bash
+```cmd
 git clone git@github.com:yanpiaowanli/yanpiaowanli.github.io.git
 ```
 
-这样，我们便得到了如下文件结构
+In this way, we get the following file structure
 
-```file structure
+```file
 E:.
 ├─projects
 │  ├─blog
@@ -31,18 +31,18 @@ E:.
 │  │     └─_posts
 ```
 
-接下来便可以在vs中打开文件夹了，在本例中是`E:\projects\blog`。vs会自动在该路径下生成文件夹`.vs`
+Next, you can open the folder in VS, in this example it is `E:\projects\blog`. VS will automatically generate a `.vs` folder in that path.
 
-之后便可以在本地修改文件了。例如，我们修改`E:\projects\blog\yanpiaowanli.github.io\_config.yml`
+After that, you can modify the files locally. For example, we modify `E:\projects\blog\yanpiaowanli.github.io\_config.yml`
 
-修改之后，在项目的根目录（本例中为`E:\projects\blog\yanpiaowanli.github.io`）中右键打开Git GUI
+After the modification, right-click in the project's root directory (in this example `E:\projects\blog\yanpiaowanli.github.io`) and open Git GUI
 
-在Git GUI中按序点击Rescan、Stage Changed。然后在右下角输入Commit文本，文本格式如下
+In Git GUI, click Rescan and then Stage Changed in sequence. Then enter the Commit text in the bottom right corner in the following format
 
-```Commit Lines
-First line: 一句话概括这次更新干了什么
-Second line: 留空
-Following Line: 详细解释为什么要做上述更新
+```Commit
+First line: Summarize in one sentence what this update has done
+Second line: Leave empty
+Following Line: Explain in detail why the above update was made
 ```
 
-输入之后，在Git GUI中点击Push，在弹出的窗口中确定即可
+After entering the text, click Push in Git GUI, and in the pop-up window, click OK.
