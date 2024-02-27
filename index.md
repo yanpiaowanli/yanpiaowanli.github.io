@@ -1,5 +1,5 @@
-Here you can say lots of fun things about your site.
+Welcome!
 
-Maybe say a some things about yourself.
+记录以后可能会用到的solution
 
-Or maybe what you plan to blog about.
+Or maybe what I plan to blog about.
