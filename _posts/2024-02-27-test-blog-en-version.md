@@ -14,6 +14,23 @@ For example, in the above example, we use the following code
 git clone git@github.com:yanpiaowanli/yanpiaowanli.github.io.git
 ```
 
+In this way, we get the following file structure
+
+```file
+E:.
+©À©¤projects
+©¦  ©À©¤blog
+©¦  ©¦  ©¸©¤yanpiaowanli.github.io
+©¦  ©¦     ©À©¤css
+©¦  ©¦     ©À©¤js
+©¦  ©¦     ©¦  ©¸©¤highlightjs
+©¦  ©¦     ©¦      ©À©¤languages
+©¦  ©¦     ©¦      ©¸©¤styles
+©¦  ©¦     ©À©¤_includes
+©¦  ©¦     ©À©¤_layouts
+©¦  ©¦     ©¸©¤_posts
+```
+
 Next, you can open the folder in VS, in this example it is `E:\projects\blog`. VS will automatically generate a `.vs` folder in that path.
 
 After that, you can modify the files locally. For example, we modify `E:\projects\blog\yanpiaowanli.github.io\_config.yml`
