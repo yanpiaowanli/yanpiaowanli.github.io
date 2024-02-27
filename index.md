@@ -1,5 +1,5 @@
 Welcome!
 
-记录以后可能会用到的solution
+Record some solution that may be re-used in subsequent days.
 
 Or maybe what I plan to blog about.
